@@ -4,10 +4,18 @@ Turn a recipe into a **tabular recipe card**: every ingredient is a row, every a
 
 This is an [Agent Skill](https://opencode.ai/docs/skills/) for OpenCode. The agent models the recipe; a zero-dependency Node script validates the model and renders the table geometry.
 
+![Masala Chai tabular recipe card](docs/masala-chai-card.png)
+
+*Masala Chai: eight ingredients, six action columns, one printed page. The ingredients are rows; each vertical action column spans exactly the rows it works on.*
+
 ## What is in the repo
 
 ```text
 tabular-recipe/
+  README.md
+  LICENSE
+  docs/
+    masala-chai-card.png       README screenshot
   skills/
     tabular-recipe/
       SKILL.md                 Agent workflow, schema, quality gates
