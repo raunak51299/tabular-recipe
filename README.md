@@ -134,3 +134,9 @@ The agent reads the skill, writes `recipes/<slug>.json`, runs `--check`, fixes a
 The tabular format is inspired by the **Tabular Recipe Notation** popularized by Michael Chu at [Cooking For Engineers](https://www.cookingforengineers.com/). This project is not affiliated with or endorsed by Cooking For Engineers. The HTML/CSS is original; no site assets are copied. Recipe content remains the property of its source.
 
 Bundled **Source Sans 3** and **Source Serif 4** fonts are licensed under the SIL Open Font License 1.1. License texts are in `skills/tabular-recipe/assets/fonts/`.
+
+## License
+
+The skill code and documentation are released under the **MIT License**. See [LICENSE](LICENSE).
+
+The MIT license does not cover the bundled fonts, which remain under the SIL Open Font License 1.1, or the recipe text, which remains the property of its respective source.
