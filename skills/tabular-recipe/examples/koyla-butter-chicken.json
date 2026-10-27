@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "title": "Koyla Butter Chicken",
+  "yield": "4 servings",
+  "lang": "en",
+  "source": {
+    "name": "Koyla Butter Chicken With Chef Saransh",
+    "author": "Sanjeev Kapoor Khazana",
+    "url": "https://www.youtube.com/watch?v=z0jSuczVxjU"
+  },
+  "print": {
+    "orientation": "portrait"
+  },
+  "sections": [
+    {
+      "name": "Marinade",
+      "setup": [
+        "If using whole almonds, soak them in warm water for 20 minutes, then peel.",
+        "The whole spices are divided: half are dry-roasted and ground into the marinade, and half go into the potli."
+      ],
+      "rows": [
+        "1/2 kg (500 g) boneless chicken, curry cut",
+        "3 tsp (15 mL) lemon juice",
+        "1-1/2 tbsp (20 g) garlic paste",
+        "1 tbsp (10 g) ginger paste",
+        "2 tsp (6 g) red chilli powder",
+        "Salt to taste",
+        "1 cup (200 g) hung yogurt",
+        "1 tsp (2 g) green cardamom powder",
+        "2 tbsp (20 g) roasted cumin powder",
+        "1/2 tsp (1.5 g) turmeric powder",
+        "1/4 cup (20 g) almonds, peeled",
+        "4-5 black peppercorns",
+        "2-3 cloves",
+        "1-1/2 in. (4 cm) cinnamon",
+        "1 bay leaf"
+      ],
+      "actions": [
+        {
+          "label": "mix; rest 1 hr",
+          "spans": [[0, 6]]
+        },
+        {
+          "label": "dry roast; grind",
+          "spans": [[10, 5]]
+        },
+        {
+          "label": "whisk yogurt + ground spices",
+          "spans": [[6, 9]]
+        },
+        {
+          "label": "add chicken; rest 1 hr",
+          "spans": [[0, 15]]
+        }
+      ]
+    },
+    {
+      "name": "Gravy",
+      "setup": [],
+      "rows": [
+        "1 kg tomatoes, chopped",
+        "1/2 kg onions, roughly chopped",
+        "30 g garlic cloves",
+        "20 g (1 in.) ginger",
+        "1/4 cup (50 g) cashews",
+        "2 tbsp (20 g) coriander powder",
+        "2 tsp (6 g) Kashmiri red chilli powder",
+        "2 tbsp (20 g) kasuri methi",
+        "2 tbsp (30 g) honey",
+        "1/2 tsp (1.5 g) turmeric powder",
+        "100 g butter",
+        "Salt to taste",
+        "4-5 black peppercorns",
+        "2-3 cloves",
+        "1-1/2 in. (4 cm) cinnamon",
+        "1 bay leaf",
+        "Water, as needed"
+      ],
+      "actions": [
+        {
+          "label": "add to cooker",
+          "spans": [[0, 12]]
+        },
+        {
+          "label": "tie potli",
+          "spans": [[12, 4]]
+        },
+        {
+          "label": "pressure cook 20 min.; rest 30 min.",
+          "spans": [[0, 17]]
+        },
+        {
+          "label": "discard potli; blend smooth",
+          "spans": [[0, 17]]
+        }
+      ]
+    },
+    {
+      "name": "Finish",
+      "setup": [],
+      "rows": [
+        "1 tbsp (15 mL) oil, for searing",
+        "1 portion marinated chicken",
+        "1 tbsp (15 mL) oil, for tadka",
+        "2 tbsp (50 g) garlic, finely chopped",
+        "2 tsp (6 g) red chilli powder",
+        "1 portion gravy",
+        "500 mL (2 cups) milk",
+        "2 tbsp (20 g) kasuri methi, roasted",
+        "2 tbsp (50 g) full-fat cream",
+        "100 g dried coal",
+        "1 tsp (5 g) butter"
+      ],
+      "actions": [
+        {
+          "label": "sear chicken",
+          "spans": [[0, 2]]
+        },
+        {
+          "label": "saute garlic",
+          "spans": [[2, 2]]
+        },
+        {
+          "label": "add chilli and gravy",
+          "spans": [[4, 2]]
+        },
+        {
+          "label": "add chicken + milk; simmer 12 min.",
+          "spans": [[1, 6]]
+        },
+        {
+          "label": "stir in kasuri + cream",
+          "spans": [[7, 2]]
+        },
+        {
+          "label": "heat coal",
+          "spans": [[9, 2]]
+        },
+        {
+          "label": "cover; infuse 5 min.",
+          "spans": [[5, 6]]
+        },
+        {
+          "label": "strain; serve",
+          "spans": [[5, 6]]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Built from the 2013 video method and the published Sanjeev Kapoor ingredient list. Where they differ, the published quantities are used; the video lists 3 tbsp lemon juice, while the published recipe lists 3 tsp (15 mL).",
+    "Use food-safe charcoal. Heat it until fully glowing, set it in a small steel bowl inside the gravy, and add the butter to the bowl. Do not let ash fall into the pan.",
+    "Rest the pressure cooker off the heat for 30 minutes before opening, then discard the potli before blending.",
+    "Add the milk gradually and keep the gravy at a gentle simmer; a hard boil can split the sauce.",
+    "The 100 g butter goes into the gravy. The extra teaspoon is only for the coal bowl. The written method also adds butter to the tadka without giving a quantity; this card uses the 2 tbsp oil there instead."
+  ]
+}

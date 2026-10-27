@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "title": "Vegetable Dum Biryani",
+  "yield": "4-6 servings",
+  "lang": "en",
+  "source": {
+    "name": "Original home-style example"
+  },
+  "print": {
+    "orientation": "landscape"
+  },
+  "sections": [
+    {
+      "name": "Rice",
+      "setup": [],
+      "rows": [
+        "1-1/2 cups (300 g) basmati rice, rinsed",
+        "6 cups (1.5 L) water",
+        "1 tbsp (15 g) salt",
+        "1 bay leaf",
+        "3 green cardamom pods",
+        "3 cloves"
+      ],
+      "actions": [
+        {
+          "label": "soak 30 min.",
+          "spans": [[0, 1]]
+        },
+        {
+          "label": "boil",
+          "spans": [[1, 5]]
+        },
+        {
+          "label": "add rice",
+          "spans": [[0, 1]]
+        },
+        {
+          "label": "cook until 70% done",
+          "spans": [[0, 6]]
+        },
+        {
+          "label": "drain",
+          "spans": [[0, 6]]
+        }
+      ]
+    },
+    {
+      "name": "Vegetable layer",
+      "setup": [],
+      "rows": [
+        "3 tbsp (45 mL) ghee or oil",
+        "1 tsp (3 g) cumin seeds",
+        "1 large (150 g) onion, sliced",
+        "1 tbsp (15 g) ginger-garlic paste",
+        "2 medium (200 g) tomatoes, chopped",
+        "2 cups (300 g) mixed vegetables (carrot, beans, peas, potato), diced",
+        "1/2 cup (120 g) yogurt, whisked",
+        "2 tsp (4 g) biryani masala",
+        "1 tsp (5 g) salt",
+        "1/4 cup (15 g) mint leaves, chopped",
+        "1/4 cup (15 g) coriander leaves, chopped"
+      ],
+      "actions": [
+        {
+          "label": "heat",
+          "spans": [[0, 1]]
+        },
+        {
+          "label": "temper",
+          "spans": [[1, 1]]
+        },
+        {
+          "label": "saute until golden",
+          "spans": [[2, 1]]
+        },
+        {
+          "label": "add",
+          "spans": [[3, 2]]
+        },
+        {
+          "label": "bhuna until oil separates",
+          "spans": [[2, 3]]
+        },
+        {
+          "label": "add vegetables",
+          "spans": [[5, 1]]
+        },
+        {
+          "label": "add yogurt and spices",
+          "spans": [[6, 3]]
+        },
+        {
+          "label": "simmer 10 min.",
+          "spans": [[0, 9]]
+        },
+        {
+          "label": "stir in herbs",
+          "spans": [[0, 11]]
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "setup": [],
+      "rows": [
+        "parboiled rice",
+        "vegetable layer",
+        "1/4 cup (60 mL) saffron milk",
+        "2 tbsp (30 mL) ghee",
+        "1/2 cup (75 g) fried onions",
+        "1/4 cup (15 g) mint leaves",
+        "1/4 cup (15 g) coriander leaves"
+      ],
+      "actions": [
+        {
+          "label": "layer",
+          "spans": [[0, 2]]
+        },
+        {
+          "label": "drizzle",
+          "spans": [[2, 2]]
+        },
+        {
+          "label": "sprinkle",
+          "spans": [[4, 3]]
+        },
+        {
+          "label": "dum 20 min.",
+          "spans": [[0, 7]]
+        },
+        {
+          "label": "rest 10 min.",
+          "spans": [[0, 7]]
+        }
+      ]
+    }
+  ],
+  "layers": {
+    "title": "Layer diagram",
+    "items": [
+      {
+        "label": "fried onions, mint, coriander",
+        "color": "#6b8e23"
+      },
+      {
+        "label": "saffron milk, ghee",
+        "color": "#e0a800"
+      },
+      {
+        "label": "rice",
+        "color": "#f5f0dc"
+      },
+      {
+        "label": "vegetable layer",
+        "color": "#b55239"
+      },
+      {
+        "label": "rice",
+        "color": "#f5f0dc"
+      },
+      {
+        "label": "vegetable layer",
+        "color": "#b55239"
+      },
+      {
+        "label": "rice",
+        "color": "#f5f0dc"
+      }
+    ]
+  },
+  "notes": [
+    "Use a heavy-bottomed pot with a tight-fitting lid for the dum stage.",
+    "The layer diagram reads top to bottom; repeat the rice and vegetable layers as shown."
+  ]
+}

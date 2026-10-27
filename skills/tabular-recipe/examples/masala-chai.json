@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "title": "Masala Chai",
+  "yield": "2 cups",
+  "lang": "en",
+  "source": {
+    "name": "Original home-style example"
+  },
+  "print": {
+    "orientation": "portrait"
+  },
+  "sections": [
+    {
+      "name": "Chai",
+      "setup": [],
+      "rows": [
+        "2 cups (480 mL) water",
+        "1 in. (2.5 cm) ginger, crushed",
+        "4 green cardamom pods, crushed",
+        "2 cloves",
+        "1 small cinnamon stick",
+        "2 tsp (4 g) loose black tea",
+        "1 cup (240 mL) whole milk",
+        "2 tsp (8 g) sugar, or to taste"
+      ],
+      "actions": [
+        {
+          "label": "boil 5 min.",
+          "spans": [[0, 5]]
+        },
+        {
+          "label": "add tea",
+          "spans": [[5, 1]]
+        },
+        {
+          "label": "boil 2 min.",
+          "spans": [[0, 6]]
+        },
+        {
+          "label": "add milk and sugar",
+          "spans": [[6, 2]]
+        },
+        {
+          "label": "simmer 5 min.",
+          "spans": [[0, 8]]
+        },
+        {
+          "label": "strain",
+          "spans": [[0, 8]]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Adjust the sugar and tea strength to taste."
+  ]
+}

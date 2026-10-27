@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "title": "Aloo Paratha",
+  "yield": "6 parathas",
+  "lang": "en",
+  "source": {
+    "name": "Original home-style example"
+  },
+  "print": {
+    "orientation": "portrait"
+  },
+  "sections": [
+    {
+      "name": "Dough",
+      "setup": [],
+      "rows": [
+        "2 cups (240 g) whole wheat flour (atta)",
+        "1/2 tsp (3 g) salt",
+        "1 tbsp (15 mL) oil",
+        "about 3/4 cup (180 mL) water, as needed"
+      ],
+      "actions": [
+        {
+          "label": "mix",
+          "spans": [[0, 2]]
+        },
+        {
+          "label": "add oil and water",
+          "spans": [[2, 2]]
+        },
+        {
+          "label": "knead 8 min.",
+          "spans": [[0, 4]]
+        },
+        {
+          "label": "rest 15 min.",
+          "spans": [[0, 4]]
+        }
+      ]
+    },
+    {
+      "name": "Filling",
+      "setup": [],
+      "rows": [
+        "3 medium (450 g) potatoes",
+        "1 tbsp (15 mL) oil",
+        "1 tsp (3 g) cumin seeds",
+        "1 medium (100 g) onion, finely chopped",
+        "2 green chillies, minced",
+        "1 tsp (2 g) amchur (dry mango powder)",
+        "1/2 tsp (3 g) salt",
+        "1/4 cup (15 g) coriander leaves, chopped"
+      ],
+      "actions": [
+        {
+          "label": "boil and mash",
+          "spans": [[0, 1]]
+        },
+        {
+          "label": "heat",
+          "spans": [[1, 1]]
+        },
+        {
+          "label": "temper",
+          "spans": [[2, 1]]
+        },
+        {
+          "label": "saute until soft",
+          "spans": [[3, 2]]
+        },
+        {
+          "label": "mix",
+          "spans": [[0, 8]]
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "setup": [],
+      "rows": [
+        "1 portion prepared dough",
+        "1 portion potato filling",
+        "1 tsp (5 mL) ghee"
+      ],
+      "actions": [
+        {
+          "label": "stuff",
+          "spans": [[0, 2]]
+        },
+        {
+          "label": "roll",
+          "spans": [[0, 2]]
+        },
+        {
+          "label": "brush",
+          "spans": [[0, 3]]
+        },
+        {
+          "label": "cook 2 min. per side",
+          "spans": [[0, 3]]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Cook the parathas one at a time; keep the finished ones warm in a covered bowl."
+  ]
+}

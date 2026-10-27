@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "title": "Tandoori Chicken",
+  "yield": "4 servings",
+  "lang": "en",
+  "source": {
+    "name": "Original home-style example"
+  },
+  "print": {
+    "orientation": "portrait"
+  },
+  "sections": [
+    {
+      "name": "Marinade",
+      "setup": [],
+      "rows": [
+        "1 kg chicken, bone-in, skinless, cut into 8 pieces",
+        "1/2 cup (120 g) thick yogurt",
+        "1 tbsp (15 mL) lemon juice",
+        "1 tbsp (15 g) ginger-garlic paste",
+        "1 tsp (2 g) Kashmiri red chilli powder",
+        "1/2 tsp (1 g) turmeric powder",
+        "1 tsp (2 g) garam masala",
+        "1 tsp (3 g) cumin powder",
+        "1 tsp (3 g) coriander powder",
+        "1 tsp (5 g) salt",
+        "1 tbsp (15 mL) mustard oil"
+      ],
+      "actions": [
+        {
+          "label": "pat dry and slit",
+          "spans": [[0, 1]]
+        },
+        {
+          "label": "whisk",
+          "spans": [[1, 10]]
+        },
+        {
+          "label": "coat",
+          "spans": [[0, 11]]
+        },
+        {
+          "label": "marinate 4 hours",
+          "spans": [[0, 11]]
+        }
+      ]
+    },
+    {
+      "name": "Roast",
+      "setup": [
+        "Preheat the oven to 220°C (425°F).",
+        "Line a baking tray with foil."
+      ],
+      "rows": [
+        "marinated chicken",
+        "2 tbsp (30 g) melted butter",
+        "1 tsp (2 g) chaat masala",
+        "1 lemon, cut into wedges"
+      ],
+      "actions": [
+        {
+          "label": "baste",
+          "spans": [[0, 2]]
+        },
+        {
+          "label": "roast 20 min., turning",
+          "spans": [[0, 1]]
+        },
+        {
+          "label": "sprinkle",
+          "spans": [[2, 1]]
+        },
+        {
+          "label": "serve with",
+          "spans": [[3, 1]]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "For a smokier finish, broil for the last 2-3 minutes.",
+    "Marinate overnight for a deeper flavour."
+  ]
+}
